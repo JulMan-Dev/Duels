@@ -1,0 +1,14 @@
+name: Duels
+author: MinecraftJulMan
+version: 1.0.0
+main: fr.minecraftjulman.duels.Main
+api-version: 1.13
+commands:
+  duel:
+    description: duel
+  arena:
+    description: arena
+    permission: commands.arena.execute
+permissions:
+  commands.arena.*:
+    default: op
